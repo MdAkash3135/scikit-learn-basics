@@ -7,7 +7,13 @@ authors = [
     { name = "MdAkash3135", email = "mdeaqubmia@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "scikit-learn>=1.9.1",
+]
 
 [project.scripts]
 scikit-learn-basics = "scikit_learn_basics:main"
